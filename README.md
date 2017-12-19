@@ -14,7 +14,7 @@ Finally, we feed this future frame to the first cycleGAN to convert the style to
 
 Below is our system overview:
 
-<img src='readme_imgs/overview.png'/>
+<img src='readme_imgs/overview.png' width="400"/>
 
 ## Current Process
 Our project is divided into two parts.
@@ -104,5 +104,5 @@ And then we’re going to find more data with simple contours to help the cycleG
 
 Below is our current results of the first cycleGAN:
 
-<img src='readme_imgs/current_results.png'/>
+<img src='readme_imgs/current_results.png' width="600"/>
 
