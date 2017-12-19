@@ -3,7 +3,7 @@ This is the TensorFlow implementation for CycleGAN.
 
 The code was written by [Harry Yang](https://www.harryyang.org) and [Nathan Silberman](https://github.com/nathansilberman).
 
-I work with Yi-Chun Liand Ting-Yi Hsieh.
+I work with Yi-Chun Lin and Ting-Yi Hsieh.
 
 CycleGAN: [[Project]](https://junyanz.github.io/CycleGAN/) [[Paper]](https://arxiv.org/pdf/1703.10593.pdf)  [[our reference]](https://github.com/4Catalyzer/cyclegan)
 
