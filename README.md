@@ -55,7 +55,7 @@ bash ./download_dataset.sh horse2zebra
 * Use your own dataset: Put images from each domain into `trainA` folder and `trainB` folder respectively.
 
 2. Creating the training data *.csv file.
-* Remember to modify the parameters in [`cyclegan_datasets.py`](https://github.com/nemocandy5/Predicting-future-frames_cycleGAN/blob/master/code/cyclegan_datasets.py). Such as the size and image type of each dataset. 
+* Remember to modify the parameters in [`cyclegan_datasets.py`](https://github.com/nemocandy5/Predicting-future-frames_cycleGAN/blob/master/cyclegan_datasets.py). Such as the size and image type of each dataset. 
 * Run create_cyclegan_dataset.py:
 ```
 python create_cyclegan_dataset.py --image_path_a=./input/basketball/trainA --image_path_b=./input/basketball/trainB --dataset_name="basketball_train" --do_shuffle=0
@@ -77,7 +77,7 @@ tensorboard --port=6006 --logdir=./output/cyclegan/exp_01/#timestamp#
  ```
 
 ### Testing
-1. Creating the testing dataset: modify the parameters in [`cyclegan_datasets.py`](https://github.com/nemocandy5/Predicting-future-frames_cycleGAN/blob/master/code/cyclegan_datasets.py).
+1. Creating the testing dataset: modify the parameters in [`cyclegan_datasets.py`](https://github.com/nemocandy5/Predicting-future-frames_cycleGAN/blob/master/cyclegan_datasets.py).
 2. Creating the testing data *.csv file.
 3. Start testing.
 ```
